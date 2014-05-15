@@ -1,0 +1,81 @@
+[3:54:49 PM] WSMassiv: Hi Grim, odesk - Eric here...
+[3:55:09 PM] *** Grim has shared contact details with WSMassiv. ***
+[3:55:15 PM] Grim: Hi Eric
+[3:55:24 PM] WSMassiv: Hi Andrey
+[3:55:43 PM] WSMassiv: So how are databases handled in situations like this?
+[3:56:06 PM] Grim: I don't really understand your question...
+[3:56:21 PM] Grim: can you specify it more detailed
+[3:56:28 PM] WSMassiv: im using git to hold the files when developers edit, but if a database needs a structural change how do we track that?
+[3:56:40 PM] Grim: Ah....
+[3:56:53 PM] Grim: Developer should have its own database
+[3:57:32 PM] Grim: and in case if he changes structure  in it ? he shoud save a query, to update the DB on production
+[3:57:40 PM] Grim: thats how I do it now
+[3:57:59 PM] Grim: git handles only code development and changes
+[3:58:17 PM] WSMassiv: right
+[3:58:43 PM] WSMassiv: so then if there are 3 developers working on this - what is your suggestion?
+[3:58:55 PM] Grim: on DB ?
+[3:58:59 PM] Grim: or on Code changes?
+[3:59:02 PM] WSMassiv: on the whole thing
+[3:59:14 PM] WSMassiv: yes some code changes will require table edits
+[3:59:20 PM] WSMassiv: usually adding
+[3:59:33 PM] WSMassiv: or changeing data types
+[3:59:45 PM] Grim: easiest scheme:
+[4:00:21 PM] WSMassiv: take your time im looking for ideas
+[4:00:35 PM] Grim: each developer shoud create new branch for each feature he develops
+[4:00:44 PM] Grim: and push it to github
+[4:01:09 PM] Grim: you shoud time to time review thiis branches and merge them with Master
+[4:01:32 PM] Grim: this is how new features will get to production
+[4:02:27 PM] Grim: with each pull request ( request to merge with Master) developer can add needed SQL in pull request comment
+[4:03:04 PM] Grim: and you will know that before merging this code to Master you should run some quries in DB
+[4:04:21 PM] Grim: more difficult but more manageble way - is to implement task tracker and log every pull request and SQL query for each new feature in different tickets
+[4:04:36 PM] Grim: like Redmine, Jira, Trello, etc
+[4:06:41 PM] Grim: can you please close the current project ?
+[4:07:39 PM] WSMassiv: yes this is a completed project
+[4:07:49 PM] WSMassiv: thank you
+[4:07:59 PM] Grim: you are welcome)
+[4:08:15 PM] WSMassiv: do you do developement work?
+[4:08:21 PM] Grim: yes
+[4:08:30 PM] Grim: PHP mostly
+[4:08:55 PM] WSMassiv: that code you moved is a php/mysql 3rd party software
+[4:09:07 PM] WSMassiv: http://www.phpprobid.com/
+[4:09:20 PM] WSMassiv: i have another project on odesk for simple fixes
+[4:10:26 PM] Grim: I'll review it
+[4:10:34 PM] Grim: if you give me a link)
+[4:11:33 PM] WSMassiv: PHPPROBID Modification -- PHP, JQUERY, JAVA & MySQL Developement
+[4:12:15 PM] WSMassiv: https://url.odesk.com/61uwft
+[4:18:36 PM] Grim: It seems that you are looking for developers on full or half ful time
+[4:18:48 PM] WSMassiv: i am
+[4:19:17 PM] Grim: I'm sorry, but I have a job, so I coudn't handle bif projects
+[4:19:28 PM] Grim: only small fixes
+[4:19:43 PM] Grim: 1 more detail about task I've done
+[4:20:04 PM] Grim: On github I've created public repository
+[4:20:16 PM] WSMassiv: ok - ill keep you in mind - i am breaking down fixes to small mini projects
+[4:20:24 PM] Grim: thanks
+[4:20:41 PM] Grim: If you need repository keep private - github asks for card details
+[4:20:53 PM] Grim: I think you will hande it by your self
+[4:23:09 PM] WSMassiv: ok excellent, I gave you feedback and closed the project..
+[4:23:20 PM] WSMassiv: I will send you details on mini projects if ineterested
+[4:23:29 PM] WSMassiv: I will pay by paypal?..
+[4:23:36 PM] WSMassiv: or do you also take bitcoin?
+[4:23:47 PM] Grim: I prefer paypal
+[4:23:52 PM] WSMassiv: i can also pay with silver or gold
+[4:23:58 PM] WSMassiv: real silver and gold
+[4:24:14 PM] Grim: :)
+[4:24:23 PM] Grim: like a pirate)
+[4:24:29 PM] WSMassiv: we are a rare coin shop
+[4:24:37 PM] Grim: oh)
+[4:24:40 PM] WSMassiv: just like a pirate
+[4:24:43 PM] WSMassiv: =)
+[4:24:50 PM] WSMassiv: i have pirate money
+[4:24:55 PM] Grim: cool)
+[4:25:02 PM] Grim: but I prefer $ for now
+[4:25:18 PM] WSMassiv: thats fine, I am also up to date on world issues...
+[4:25:33 PM] WSMassiv: so if there is a time you need silver or gold and the mail works i will send
+[4:25:45 PM] WSMassiv: if USD is fine ill send that no prob
+[4:25:47 PM] WSMassiv: thanks again
+[4:25:54 PM] WSMassiv: ill keep you in mind
+[4:26:09 PM] Grim: reponse feedback given
+[4:26:12 PM] Grim: thank you too
+[4:26:22 PM] Grim - Aundrey: feel free to contact me
+[4:26:58 PM] WSMassiv: excellent - you may hear from me sooner then later
+[4:27:06 PM] Grim - Andrey - PHP dev. oDesk: ok)
