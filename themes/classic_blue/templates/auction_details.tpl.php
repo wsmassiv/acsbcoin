@@ -391,14 +391,14 @@ if ( !defined('INCLUDED') ) { die("Access Denied"); }
             </tr>
 				<? } ?>
            	<? if ($item_details['apply_tax']) {  ?>
-            <tr>
-               <td colspan="2"><?=$auction_tax['display'];?></td>
-            </tr>
+             
             <tr class="c5">
                <td colspan="2"><img src="themes/<?=$setts['default_theme'];?>/img/pixel.gif" width="1" height="1"></td>
             </tr>
             <? if ($auction_tax['display_buyer']) { ?>
-            
+            <tr>
+               <td colspan="2"><?=$auction_tax['display_buyer'];?></td>
+            </tr>
             <tr class="c5">
                <td colspan="2"><img src="themes/<?=$setts['default_theme'];?>/img/pixel.gif" width="1" height="1"></td>
             </tr>
