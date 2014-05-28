@@ -281,6 +281,7 @@ class tax extends fees_main
 			'display_short' => GMSG_NA);
 
 		$can_add_tax = $this->can_add_tax($seller_id, $enable_tax);
+		echo '<pre>';  print_r($can_add_tax); die;
 
 		if ($can_add_tax['can_add_tax'])
 		{
