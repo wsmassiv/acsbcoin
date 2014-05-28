@@ -189,7 +189,7 @@ if ( !defined('INCLUDED') ) { die("Access Denied"); }
       </tr>
       <? } ?>
       <? } ?>
-      <? if ($seller_country_iso == 'US') { ?>
+      <? //if ($seller_country_iso == 'US') { ?>
       <tr class="c1">
          <td width="150" align="right"><?=MSG_OVERRIDE_TAX_RATE;?> My Tax</td>
          <td colspan="2"><input name="seller_tax_amount" type="text" id="seller_tax_amount" value="<?=$prefilled_fields['seller_tax_amount'];?>" size="6" /> %</td>
@@ -202,7 +202,7 @@ if ( !defined('INCLUDED') ) { die("Access Denied"); }
          <td width="150" align="right"></td>
          <td colspan="2"><?=MSG_OVERRIDE_TAX_RATE_EXPL;?></td>
       </tr>      
-      <? } ?>
+      <? //} ?>
       <tr class="c1">
          <td width="150" align="right"><?=MSG_VACATION_MODE;?></td>
          <td colspan="2"><input type="checkbox" name="is_vacation" value="1" <? echo ($prefilled_fields['is_vacation']==1) ? 'checked' : ''; ?>/></td>
