@@ -29,7 +29,7 @@ if ( !defined('INCLUDED') ) { die("Access Denied"); }
 
 <?php
 echo "<pre>";
-  print_r($item_details);
+  print_r($auction_tax);
 
 ?>
 
