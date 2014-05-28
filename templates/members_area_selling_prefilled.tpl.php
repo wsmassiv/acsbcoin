@@ -191,7 +191,7 @@ if ( !defined('INCLUDED') ) { die("Access Denied"); }
       <? } ?>
       <? if ($seller_country_iso == 'US') { ?>
       <tr class="c1">
-         <td width="150" align="right"><?=MSG_OVERRIDE_TAX_RATE;?></td>
+         <td width="150" align="right"><?=MSG_OVERRIDE_TAX_RATE;?> My Tax</td>
          <td colspan="2"><input name="seller_tax_amount" type="text" id="seller_tax_amount" value="<?=$prefilled_fields['seller_tax_amount'];?>" size="6" /> %</td>
       </tr>
       <tr>
