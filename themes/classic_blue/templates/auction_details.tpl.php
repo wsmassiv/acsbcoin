@@ -390,7 +390,7 @@ if ( !defined('INCLUDED') ) { die("Access Denied"); }
                <td></td>
             </tr>
 				<? } ?>
-           	<? if ($item_details['apply_tax']) { ?>
+           	<? if ($item_details['apply_tax']) { echo "sdsadas"; ?>
             <tr>
                <td colspan="2"><?=$auction_tax['display'];?></td>
             </tr>
