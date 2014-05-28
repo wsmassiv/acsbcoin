@@ -26,12 +26,7 @@ if ( !defined('INCLUDED') ) { die("Access Denied"); }
    </tr>
 </table>
 <? } ?>
-
-<?php
-echo "<pre>";
-  print_r($auction_tax);
-
-?>
+ 
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 	<tr>
