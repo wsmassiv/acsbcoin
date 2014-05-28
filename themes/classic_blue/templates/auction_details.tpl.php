@@ -27,6 +27,12 @@ if ( !defined('INCLUDED') ) { die("Access Denied"); }
 </table>
 <? } ?>
 
+<?php
+echo "<pre>";
+  print_r($item_details);
+
+?>
+
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 	<tr>
 		<? if ($ad_display == 'live') { ?>
