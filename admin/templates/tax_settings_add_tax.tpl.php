@@ -2,7 +2,7 @@
 #################################################################
 ## PHP Pro Bid v6.10															##
 ##-------------------------------------------------------------##
-## Copyright ©2007 PHP Pro Software LTD. All rights reserved.	##
+## Copyright ï¿½2007 PHP Pro Software LTD. All rights reserved.	##
 ##-------------------------------------------------------------##
 #################################################################
 
@@ -29,7 +29,7 @@ function submit_form(form_name) {
          <td width="100%"><input type="text" name="tax_name" value="<?=$tax_details['tax_name'];?>" size="50" /></td>
       </tr>
       <tr class="c1">
-         <td nowrap><b><?=AMSG_TAX_RATE;?></b></td>
+         <td nowrap><b><?=AMSG_TAX_RATE;?></b> ddd </td>
          <td width="100%"><input type="text" name="amount" value="<?=$tax_details['amount'];?>" size="10" />
             %</td>
       </tr>
